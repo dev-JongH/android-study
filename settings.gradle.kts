@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "android-study"
 include(":app")
 include(":patterns")
+include(":kotlin")

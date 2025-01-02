@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.android.study"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.android.study"
