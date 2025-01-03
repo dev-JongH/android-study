@@ -59,6 +59,7 @@ dependencies {
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
@@ -73,8 +74,11 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    implementation(libs.navigation.compose)
+
     // hilt
     implementation(libs.hilt)
+    implementation(libs.hilt.navigation.compose)
     kapt(libs.hilt.compiler)
 
     implementation(project(":patterns"))
